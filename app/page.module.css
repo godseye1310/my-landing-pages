@@ -3,3 +3,50 @@
 	padding: 2rem;
 	color: black;
 }
+
+.container {
+	padding: 4rem 2rem;
+	text-align: center;
+}
+
+.container h1 {
+	font-size: 3rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+	line-height: 1.2;
+	color: #333;
+}
+
+.container p {
+	font-size: 1.25rem;
+	line-height: 1.6;
+	margin-bottom: 3rem;
+	color: #666;
+}
+
+.container div {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+}
+
+/*  
+.navlinks {
+}
+*/
+
+.navLinkButton {
+	color: white;
+	padding: 1rem 2rem;
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.page1 {
+	background: #007bff;
+}
+
+.page2 {
+	background: #28a745;
+}

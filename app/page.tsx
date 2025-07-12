@@ -1,9 +1,34 @@
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
+	//
+
 	return (
-		<div className={styles.page}>
+		<main className={styles.page}>
 			<h1>MAIN PAGE</h1>
-		</div>
+
+			<div className={styles.container}>
+				<h1 className="">Landing Page Builder</h1>
+				<p>
+					Build and manage beautiful landing pages with Contentful and
+					Next.js
+				</p>
+				<div className="">
+					<Link
+						href="/landing/page-1"
+						className={`${styles.navLinkButton} ${styles.page1}`}
+					>
+						View Page 1
+					</Link>
+					<Link
+						href="/landing/page-2"
+						className={`${styles.navLinkButton} ${styles.page2}`}
+					>
+						View Page 2
+					</Link>
+				</div>
+			</div>
+		</main>
 	);
 }
