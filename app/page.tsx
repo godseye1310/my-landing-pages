@@ -9,10 +9,10 @@ export default function Home() {
 			<h1>MAIN PAGE</h1>
 
 			<div className={styles.container}>
-				<h1 className="">Landing Page Builder</h1>
+				<h1 className="">Landing Page Previewer</h1>
 				<p>
-					Build and manage beautiful landing pages with Contentful and
-					Next.js
+					Preview the beautiful landing pages build with Contentful
+					and Next.js
 				</p>
 				<div className="">
 					<Link

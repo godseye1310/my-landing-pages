@@ -17,7 +17,7 @@ const NavBar = () => {
 			<nav className={styles.nav}>
 				<div className={styles.container}>
 					<Link href="/" className={styles.logo}>
-						Landing Builder
+						Landing Page
 					</Link>
 					<ul className={styles.navList}>
 						{navItems.map((item) => (
